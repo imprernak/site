@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Clip Path for Petal Highlights -->
+    <clipPath id="petal-clip">
+      <path d="M256,200 C215,180 205,120 205,85 C205,45 228,25 256,25 C284,25 307,45 307,85 C307,120 297,180 256,200 Z"/>
+    </clipPath>
+    
+    <!-- Clip Path for Center Face Shadow -->
+    <clipPath id="center-clip">
+      <circle cx="256" cy="200" r="85"/>
+    </clipPath>
+
+    <!-- Single Reusable Petal Component -->
+    <g id="sunflower-petal">
+      <path d="M256,200 C215,180 205,120 205,85 C205,45 228,25 256,25 C284,25 307,45 307,85 C307,120 297,180 256,200 Z" fill="#FFCB3B" stroke="#000000" stroke-width="22" stroke-linejoin="round"/>
+      <ellipse cx="222" cy="85" rx="25" ry="60" fill="#FFE375" clip-path="url(#petal-clip)"/>
+    </g>
+  </defs>
+
+  <!-- 12 Rotated Petals around the center point (256, 200) -->
+  <use href="#sunflower-petal"/>
+  <use href="#sunflower-petal" transform="rotate(30 256 200)"/>
+  <use href="#sunflower-petal" transform="rotate(60 256 200)"/>
+  <use href="#sunflower-petal" transform="rotate(90 256 200)"/>
+  <use href="#sunflower-petal" transform="rotate(120 256 200)"/>
+  <use href="#sunflower-petal" transform="rotate(150 256 200)"/>
+  <use href="#sunflower-petal" transform="rotate(180 256 200)"/>
+  <use href="#sunflower-petal" transform="rotate(210 256 200)"/>
+  <use href="#sunflower-petal" transform="rotate(240 256 200)"/>
+  <use href="#sunflower-petal" transform="rotate(270 256 200)"/>
+  <use href="#sunflower-petal" transform="rotate(300 256 200)"/>
+  <use href="#sunflower-petal" transform="rotate(330 256 200)"/>
+
+  <!-- Left Floating Leaf -->
+  <g transform="translate(175, 410) rotate(-35)">
+    <ellipse cx="0" cy="0" rx="45" ry="65" fill="#54DB7D" stroke="#000000" stroke-width="22"/>
+    <path d="M-45,0 C-45,-30 -25,-55 0,-65 C-25,-40 -35,-10 -35,0 C-35,10 -25,40 0,65 C-25,55 -45,30 -45,0 Z" fill="#84EF9D"/>
+    <line x1="0" y1="65" x2="0" y2="15" stroke="#000000" stroke-width="22" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right Floating Leaf -->
+  <g transform="translate(337, 410) rotate(35)">
+    <ellipse cx="0" cy="0" rx="45" ry="65" fill="#54DB7D" stroke="#000000" stroke-width="22"/>
+    <path d="M-45,0 C-45,-30 -25,-55 0,-65 C-25,-40 -35,-10 -35,0 C-35,10 -25,40 0,65 C-25,55 -45,30 -45,0 Z" fill="#84EF9D"/>
+    <line x1="0" y1="65" x2="0" y2="15" stroke="#000000" stroke-width="22" stroke-linecap="round"/>
+  </g>
+
+  <!-- Center Flower Core with Outline -->
+  <circle cx="256" cy="200" r="85" fill="#D57C4C" stroke="#000000" stroke-width="22"/>
+  
+  <!-- Right-Side Face Shadow (Clipped) -->
+  <ellipse cx="305" cy="200" rx="45" ry="90" fill="#BA6839" clip-path="url(#center-clip)"/>
+
+  <!-- Happy Face Features -->
+  <!-- Left Eye -->
+  <circle cx="225" cy="180" r="11" fill="#000000"/>
+  <!-- Right Eye -->
+  <circle cx="287" cy="180" r="11" fill="#000000"/>
+  <!-- Smile -->
+  <path d="M222,205 Q256,238 290,205" fill="none" stroke="#000000" stroke-width="14" stroke-linecap="round"/>
+</svg>
