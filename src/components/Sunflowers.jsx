@@ -21,9 +21,7 @@ export default function Sunflowers() {
             className="text-white/80 text-lg sm:text-xl md:text-2xl leading-relaxed"
           >
             If it's sunflowers… congratulations, you've found her other
-            personality. She'll stop mid-conversation, point at them like
-            she's discovered a national treasure, and suddenly every
-            sunflower is "the prettiest thing ever."
+            personality. Her soul is a sunflower, forever reaching for the light and quietly becoming it even in the dark. There is no such things as too much sunflower in her life...  "
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

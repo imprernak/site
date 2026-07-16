@@ -52,9 +52,9 @@ export default function Thriller() {
             transition={{ duration: 0.9, delay: 0.15 }}
             className="text-white/70 text-lg sm:text-xl md:text-2xl leading-relaxed"
           >
-            If it's a thriller book — especially one with a psychologically
+            If it's anything with thriller especially one with a psychologically
             unhinged woman whose hobbies include murder and terrible life
-            choices — you can be certain she'll devour it like a
+            choices, you can be certain she'll devour it like a
             Michelin-starred meal.
           </motion.p>
           <motion.p

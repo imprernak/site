@@ -63,7 +63,7 @@ export default function Music() {
             transition={{ duration: 0.9, delay: 0.3 }}
             className="text-white/50 text-base sm:text-lg md:text-xl leading-relaxed mt-4 italic font-display"
           >
-            At this point, she's basically a Spotify playlist disguised as
+            At this point, she's basically my living spotify recommendation algorithm disguised as
             a person.
           </motion.p>
         </div>

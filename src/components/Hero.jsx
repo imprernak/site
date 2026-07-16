@@ -56,7 +56,7 @@ export default function Hero() {
             The Muse
           </p>
           <p className="text-white/60 text-sm sm:text-base leading-relaxed mt-6 max-w-sm mx-auto md:mx-0">
-            Equal parts thriller-novel menace and sunflower softness —
+            A small internet corner dedicated to wonderfully choatic muse with
             a slow unfolding of the small, specific things she loves.
           </p>
         </motion.div>

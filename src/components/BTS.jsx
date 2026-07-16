@@ -35,7 +35,7 @@ export default function BTS() {
             transition={{ duration: 0.9, delay: 0.15 }}
             className="text-white/70 text-lg sm:text-xl md:text-2xl leading-relaxed"
           >
-            A soft spot reserved, permanently, for one member of BTS - JK :/
+            A soft spot reserved, permanently, for one member of BTS - JK :/ not adding more picture heres :(
           </motion.p>
         </div>
       </div>

@@ -63,7 +63,7 @@ export default function Litchi() {
             transition={{ duration: 0.9, delay: 0.3 }}
             className="text-white/50 text-base sm:text-lg md:text-xl leading-relaxed mt-4 italic font-display"
           >
-            It's less of a drink and more of a time machine for her.
+            It's less of a drink and more of a nostalgic drink for her.
           </motion.p>
         </div>
       </div>
