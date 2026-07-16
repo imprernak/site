@@ -9,13 +9,13 @@
    ============================================================ */
 
 const SONGS = [
-  { title: "There Is a Light That Never Goes Out", artist: "The Smiths", file: "music/01-there-is-a-light-that-never-goes-out.mp3" },
-  { title: "It's Not Living (If It's Not With You)", artist: "The 1975", file: "music/02-its-not-living-if-its-not-with-you.mp3" },
-  { title: "Mirrors", artist: "Justin Timberlake", file: "music/03-mirrors.mp3" },
-  { title: "Robbers", artist: "The 1975", file: "music/04-robbers.mp3" },
-  { title: "Those Eyes", artist: "New West ft. Zeph", file: "music/05-those-eyes.mp3" },
-  { title: "All Too Well (10 Minute Version)", artist: "Taylor Swift", file: "music/06-all-too-well-10-minute-version.mp3" },
-  { title: "The Bitch Is Back", artist: "Elton John", file: "music/07-the-bitch-is-back.mp3" },
+  { title: "There Is a Light That Never Goes Out", artist: "The Smiths", file: "/musical-gift/music/01-there-is-a-light-that-never-goes-out.mp3" },
+  { title: "It's Not Living (If It's Not With You)", artist: "The 1975", file: "/musical-gift/music/02-its-not-living-if-its-not-with-you.mp3" },
+  { title: "Mirrors", artist: "Justin Timberlake", file: "/musical-gift/music/03-mirrors.mp3" },
+  { title: "Robbers", artist: "The 1975", file: "/musical-gift/music/04-robbers.mp3" },
+  { title: "Those Eyes", artist: "New West ft. Zeph", file: "/musical-gift/music/05-those-eyes.mp3" },
+  { title: "All Too Well (10 Minute Version)", artist: "Taylor Swift", file: "/musical-gift/music/06-all-too-well-10-minute-version.mp3" },
+  { title: "The Bitch Is Back", artist: "Elton John", file: "/musical-gift/music/07-the-bitch-is-back.mp3" },
 ];
 
 /* ============================================================
