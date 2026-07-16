@@ -4,9 +4,9 @@ import { Menu, X, ChevronDown } from 'lucide-react'
 
 const links = ['Muse', 'Delights', 'Gallery', 'Chapters']
 const projects = [
-  { label: 'The Sunflower Garden', href: '#' },
-  { label: 'Musical Gift', href: '#' },
-  { label: 'Hydration Reminder', href: '#' },
+  { label: 'The Sunflower Garden', href: 'https://www.prernathemuse.site/sunflower-garden' },
+  { label: 'Musical Gift', href: 'https://www.prernathemuse.site/musical-gift' },
+  { label: 'Hydration Reminder', href: 'https://www.prernathemuse.site/hydration-reminder' },
 ]
 
 export default function Nav() {
