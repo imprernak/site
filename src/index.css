@@ -1,6 +1,20 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=EB+Garamond:wght@400;500&family=Great+Vibes&display=swap');
+@theme {
+  --color-ivory: #F7F1E7;
+  --color-cream: #FBF6EC;
+  --color-champagne: #E8D9B5;
+  --color-gold: #C9A76B;
+  --color-umber: #6B5D4F;
+  --color-dustyrose: #C98F82;
+  --color-warmgrey: #948B7F;
 
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body: 'EB Garamond', serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-ui: 'Inter', sans-serif;
+}
 @font-face {
   font-family: 'Helvetica Now Text';
   src: url('https://db.onlinewebfonts.com/t/08e020de1811ec4489f82d1247a42c09.woff') format('woff');
